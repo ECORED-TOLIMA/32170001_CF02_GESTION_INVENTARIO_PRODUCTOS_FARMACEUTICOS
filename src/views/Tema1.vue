@@ -5,25 +5,30 @@
     .titulo-principal.color-acento-contenido(data-aos="fade-right")
       .titulo-principal__numero
         span 1
-      h1 Titulo_de_primer_nivel
+      h1 Atención al cliente en el servicio farmacéutico
+    
+    separador
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 1.1 Tipos y características del cliente
 
-    //- El componente "Muestras" tiene las aplicaciones de todos los componentes de la base
-    //- se encuentra en src/components/Muestras.vue
-    //- Una vez el componente "Muestras" no se necesite 
-    //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
-    //- esto evitará que se compile en la carpeta final de distribución
-    Muestras
+    separador
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 1.2 Elementos clave en la atención
+
+    separador
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 1.3 Aplicación de protocolos de atención
+
+    separador
+    #t_1_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 1.4 Elementos operativos para la implementación del protocolo de dispensación
+
 
 </template>
 
 <script>
-// eslint-disable-next-line prettier/prettier
-import Muestras from '../components/Muestras'; // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
   data: () => ({
     // variables de vue
   }),

@@ -2,13 +2,13 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. 
+    p Este componente aborda las etapas esenciales que garantizan una dispensación farmacéutica segura, legal y centrada en el usuario. Se explora desde la identificación del paciente y la validación de la prescripción médica, hasta la verificación de la calidad del medicamento y su correcta entrega. También se analiza la importancia del cumplimiento normativo, la actuación ante alertas sanitarias y la gestión adecuada de residuos, promoviendo prácticas sostenibles y educación al usuario. Todo ello con el fin de asegurar un servicio farmacéutico responsable y alineado con la legislación vigente en Colombia .
     
 
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="La síntesis presenta de forma esquemática las principales acciones del proceso de dispensación farmacéutica, desde la identificación del usuario y la validación de la fórmula médica, hasta la entrega del medicamento, la gestión de alertas sanitarias y el manejo adecuado de residuos. Cada etapa está orientada al cumplimiento normativo, la calidad del producto y la seguridad del usuario.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

@@ -9,6 +9,8 @@
           i.fas.fa-info
       h1 Introducción
     
+    p.mb-5(data-aos="fade-down") La dispensación de productos farmacéuticos constituye una actividad esencial dentro del servicio de salud, ya que asegura que los medicamentos lleguen al usuario final en condiciones adecuadas de calidad, seguridad y eficacia terapéutica. Este componente formativo tiene como propósito desarrollar en los aprendices del SENA las competencias necesarias para ejecutar este proceso de manera técnica, normativa y ética. Para ello, se abordan aspectos como la validación de la prescripción médica, la aplicación de protocolos estandarizados, el cumplimiento del Manual de Buenas Prácticas de Dispensación (MBPD), y la correcta entrega de medicamentos. Asimismo, se profundiza en el manejo de residuos, el seguimiento de alertas sanitarias y la adecuada orientación al usuario, elementos clave para garantizar una atención farmacéutica segura, trazable y centrada en el bienestar del paciente. Para comprender la importancia del contenido y los temas abordados, se recomienda acceder al siguiente video:
+    
     .row.justify-content-center.align-items-center           
       .col-lg-12
         figure
