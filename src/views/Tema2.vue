@@ -169,7 +169,7 @@
             .row.justify-content-center.h-100.w-100
               .col-lg-auto.col-3.col-sm-2.px-0.mb-4(data-aos="flip-up")
                 .cajon.cajon.C03.p-0.h-100
-                  img.h-100.my-auto(src='@/assets/curso/temas/tema2/img08.svg' alt="Imagen decorativa")
+                  img.h-100.my-auto(src='@/assets/curso/temas/tema2/img10.svg' alt="Imagen decorativa")
               .col-lg-9.col-8.px-0.mb-4(data-aos="fade-down")
                 .cajon.cajon.C01.p-4.h-100
                   p.mb-0 <b>Posología</b>: dosis, frecuencia, vía de administración y duración del tratamiento.
@@ -178,7 +178,7 @@
             .row.justify-content-center.h-100.w-100
               .col-lg-auto.col-3.col-sm-2.px-0.mb-4(data-aos="flip-up")
                 .cajon.cajon.C03.p-0.h-100
-                  img.h-100.my-auto(src='@/assets/curso/temas/tema2/img09.svg' alt="Imagen decorativa")
+                  img.h-100.my-auto(src='@/assets/curso/temas/tema2/img11.svg' alt="Imagen decorativa")
               .col-lg-9.col-8.px-0.mb-4(data-aos="fade-down")
                 .cajon.cajon.C01.p-4.h-100
                   p.mb-0 <b>Datos del profesional prescriptor</b>: nombre completo, especialidad, número de tarjeta profesional, firma y sello.
@@ -187,7 +187,7 @@
             .row.justify-content-center.h-100.w-100
               .col-lg-auto.col-3.col-sm-2.px-0.mb-4(data-aos="flip-up")
                 .cajon.cajon.C03.p-0.h-100
-                  img.h-100.my-auto(src='@/assets/curso/temas/tema2/img10.svg' alt="Imagen decorativa")
+                  img.h-100.my-auto(src='@/assets/curso/temas/tema2/img12.svg' alt="Imagen decorativa")
               .col-lg-9.col-8.px-0.mb-4(data-aos="fade-down")
                 .cajon.cajon.C01.p-4.h-100
                   p.mb-0 <b>Fecha de prescripción.</b>
