@@ -7,21 +7,284 @@
         span 2
       h1 Verificación de la prescripción médica
     
+    p.mb-5(data-aos="fade-down") La verificación de la prescripción médica constituye una etapa clave en el proceso de dispensación, ya que permite garantizar la idoneidad, seguridad y legalidad del tratamiento farmacológico. Este proceso debe realizarse con rigurosidad, teniendo en cuenta los aspectos normativos, clínicos y administrativos que regulan el uso de medicamentos en el sistema de salud.
+
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-0(data-aos="flip-down")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img01.jpg')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 El auxiliar del servicio farmacéutico debe examinar cada prescripción considerando tanto la forma como el contenido. Se valida que el documento contenga los datos completos del paciente y del prescriptor, así como la información precisa del medicamento, incluyendo nombre, forma farmacéutica, dosis, frecuencia, vía de administración, duración del tratamiento y fecha de emisión. Esta verificación debe realizarse antes de la entrega del medicamento, ya que cualquier omisión, error o inconsistencia puede afectar negativamente la salud del paciente.
+    
     separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.1 Verificación de la prescripción médica
+    
+    p.mb-5(data-aos="fade-down") La prescripción médica es un acto clínico y legal mediante el cual un profesional de la salud autorizado, como un médico, odontólogo o profesional con capacidad prescriptiva reconocida, indica por escrito el tratamiento farmacológico requerido por un paciente. Este documento formaliza la decisión terapéutica y constituye el primer paso del proceso de uso de medicamentos en el sistema de salud.
+
+    .row.justify-content-center.mb-5
+      .col-lg-10.col-12       
+        .row.cajon.C01.p-4.p-md-5.mb-5
+          .col-lg-6.col-12
+            figure(data-aos="fade-up")
+              img(src='@/assets/curso/temas/tema2/img02.svg', alt='Imagen decorativa')
+          .col-lg-6.col-12
+            p.mb-0(data-aos="fade-down") En Colombia, la prescripción de medicamentos está regulada por el Decreto 2200 de 2005, el cual establece las disposiciones para la organización y funcionamiento de los servicios farmacéuticos, y por la Resolución 1403 de 2007, que define los requisitos para la prescripción y dispensación de medicamentos. Además, la Resolución 1885 de 2018 adopta el Manual de Medicamentos y Dispositivos Médicos y reglamenta el uso obligatorio del formato único de prescripción en el territorio nacional, conocido como MIPRES, en el caso de tecnologías no incluidas en el Plan de Beneficios en Salud.
+
+        p.mb-5(data-aos="fade-down") La prescripción debe cumplir con una estructura estandarizada que garantice su validez, legibilidad, trazabilidad y seguridad para el paciente. Los elementos esenciales de una prescripción médica incluyen:
+
+        .row.justify-content-center.align-items-center(data-aos="flip-up")
+          .col-12
+            .row.justify-content-center.align-items-center(style="display: flex; width: 100%; margin: auto;")
+              .col-lg-7.col-12.mb-5.mb-md-0.order-lg-1.order-2.mb-lg-0
+                LineaTiempoD.color-acento-botones.especial
+                  .row(numero="1" titulo="Identificación del prestador o profesional prescriptor")
+                    .col-12.mb-4.mb-md-0
+                      p.mb-0 Nombre completo, número de identificación profesional (registro médico o tarjeta profesional), número del ReTHUS, dirección y teléfono de contacto. En servicios institucionales también debe incluirse el nombre del establecimiento de salud.
+
+                  .row(numero="2" titulo="Datos del paciente")
+                    .col-12.mb-4.mb-md-0
+                      p.mb-0 Nombre completo, tipo y número de documento, edad, sexo y otros datos relevantes según el régimen de aseguramiento.
+
+                  .row(numero="3" titulo="Fecha de la prescripción")
+                    .col-12.mb-4.mb-md-0
+                      p.mb-0 Debe especificarse el día, mes y año en que se emite el documento.
+
+                  .row(numero="4" titulo="Medicamento prescrito")
+                    .col-12.mb-4.mb-md-0
+                      p.mb-0 Debe incluir el nombre genérico (preferentemente la Denominación Común Internacional - DCI), forma farmacéutica, concentración, dosis, vía de administración, frecuencia y duración del tratamiento. También pueden añadirse advertencias específicas o recomendaciones sobre el uso adecuado.
+
+                  .row(numero="5" titulo="Diagnóstico o motivo clínico")
+                    .col-12.mb-4.mb-md-0
+                      p.mb-0 Especialmente en prescripciones institucionales o en el sistema MIPRES, se debe asociar el medicamento con el diagnóstico principal.
+
+                  .row(numero="6" titulo="Firma y sello del prescriptor")
+                    .col-12.mb-4.mb-md-0
+                      p.mb-0 Validan la autenticidad del documento, siendo obligatorios para garantizar su validez legal y su aceptación en los servicios farmacéuticos.
+              .col-lg-5.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
+                figure
+                  img(src='@/assets/curso/temas/tema2/img03.png', alt='Imagen decorativa')
+
+    p.mb-0(data-aos="fade-down") El cumplimiento de esta estructura no solo garantiza la correcta dispensación y seguimiento del tratamiento, sino que protege la seguridad del paciente y la responsabilidad del profesional. En el ámbito institucional, la validación de la prescripción por parte del personal farmacéutico es obligatoria y forma parte del proceso de farmacovigilancia y garantía de calidad en la atención en salud.
 
     separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.2 Tipos de prescripción
+    
+    p.mb-5(data-aos="fade-down") En el contexto de la atención en salud, la prescripción de medicamentos puede clasificarse en diferentes tipos, según diversos criterios como el ámbito de aplicación, el contenido terapéutico, la condición del medicamento o el medio utilizado para su emisión. Esta clasificación es fundamental para entender el alcance, las responsabilidades y los procedimientos asociados a cada tipo de prescripción. A continuación, se describen los tipos más relevantes en el sistema de salud colombiano:
+
+    .row.justify-content-center.mb-5(data-aos="flip-up")(style="display: flex; width: 100%; margin: auto;")
+      .col-lg-8.col-12.mb-md-0
+        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--C05")
+          .row(titulo="Prescripción ambulatoria")
+            .col-12.mb-0.mb-md-0
+              p Se refiere a la indicación de medicamentos para pacientes que no requieren hospitalización. Generalmente se realiza en consulta externa y su objetivo es permitir el tratamiento desde el hogar, bajo supervisión médica periódica.
+          .row(titulo="Prescripción institucional")
+            .col-12.mb-0.mb-md-0
+              p Es aquella que se realiza dentro de una institución prestadora de servicios de salud (IPS), dirigida a pacientes hospitalizados. Incluye medicamentos para manejo intrahospitalario, de uso inmediato o continuo, y requiere seguimiento por parte del personal clínico y farmacéutico.
+          .row(titulo="Prescripción por principio activo (nombre genérico)")
+            .col-12.mb-0.mb-md-0
+              p Consiste en prescribir medicamentos utilizando la Denominación Común Internacional (DCI). Esta práctica es promovida por el Ministerio de Salud para fomentar el acceso y uso racional de medicamentos, priorizando la equivalencia terapéutica sobre las marcas comerciales.
+          .row(titulo="Prescripción de medicamentos no PBS (Plan de Beneficios en Salud)")
+            .col-12.mb-0.mb-md-0
+              p Se realiza mediante el sistema MIPRES y permite prescribir tecnologías en salud no incluidas en el PBS, cuando se justifique clínicamente su necesidad. Este tipo de prescripción requiere un soporte técnico-científico y está sujeta a auditoría.
+          .row(titulo="Prescripción verbal")
+            .col-12.mb-0.mb-md-0
+              p Utilizada en situaciones de urgencia o emergencia, especialmente en el ámbito hospitalario. Debe ser registrada posteriormente en la historia clínica y confirmada por escrito en el menor tiempo posible.
+          .row(titulo="Prescripción electrónica")
+            .col-12.mb-0.mb-md-0
+              p Consiste en el uso de plataformas digitales para emitir y registrar órdenes médicas, garantizando trazabilidad, reducción de errores y mayor eficiencia en el sistema de salud. En Colombia, MIPRES es un ejemplo de prescripción electrónica obligatoria en ciertos casos.
+          .row(titulo="Prescripción de medicamentos controlados")
+            .col-12.mb-0.mb-md-0
+              p Corresponde a la prescripción de sustancias sujetas a fiscalización (como psicotrópicos o estupefacientes). Este tipo de prescripción debe cumplir con requisitos específicos establecidos por el INVIMA y debe hacerse en recetarios oficiales autorizados por la autoridad sanitaria.
+                  
+      .col-lg-4.col-6.col-md-6.col-8.order-lg-2.order-1.mb-lg-0.mb-3.d-none.d-lg-block
+        figure
+          img(src='@/assets/curso/temas/tema2/img04.png', alt='Imagen decorativa')
+
+    p.mb-0(data-aos="fade-down") Cada tipo de prescripción exige un nivel de responsabilidad clínica y legal, así como un proceso específico de validación, dispensación y seguimiento. La correcta clasificación y aplicación de cada tipo permite optimizar los recursos del sistema de salud y garantizar una atención segura, oportuna y centrada en el paciente.
 
     separador
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.3 Prescripción de medicamentos controlados
+    
+    p(data-aos="fade-down") La prescripción de medicamentos controlados corresponde a la indicación médica de sustancias sujetas a fiscalización por su alto riesgo de dependencia, abuso o desvío. Estos medicamentos, aunque necesarios en el tratamiento de múltiples patologías, deben ser prescritos con especial cuidado y conforme a las regulaciones establecidas en Colombia.
+    p.mb-5(data-aos="fade-down") Entre los medicamentos controlados más comunes se encuentran:
+
+    .row.justify-content-center.mb-0(data-aos="flip-up")
+      .col
+        .tarjeta--container.row.mb-5
+          .col-xl.col-md-6.tarjeta.tarjeta--C06.p-5
+            .row.justify-content-center.mb-3
+              .col-lg-4.col-6
+                figure
+                  img(src='@/assets/curso/temas/tema2/img05.svg', alt='Imagen decorativa')
+              
+            h4.text-center Estupefacientes
+            p.mb-0 Morfina, fentanilo, metadona y oxicodona. Utilizados principalmente en el manejo del dolor crónico o agudo, cuidados paliativos y ciertas condiciones oncológicas.
+
+          .col-xl.col-md-6.tarjeta.tarjeta--C01.p-5
+            .row.justify-content-center.mb-3
+              .col-lg-4.col-6
+                figure
+                  img(src='@/assets/curso/temas/tema2/img06.svg', alt='Imagen decorativa')
+              
+            h4.text-center Psicotrópicos
+            p.mb-0 Clonazepam, alprazolam, diazepam y metilfenidato. Indicados en el tratamiento de trastornos de ansiedad, insomnio, epilepsia, TDAH, entre otros.
+
+    p.mb-5(data-aos="fade-down") Este tipo de medicamentos debe ser prescrito en un recetario oficial numerado, suministrado por el Fondo Nacional de Estupefacientes o la Secretaría de Salud departamental. El formato exige:
+
+    .row.justify-content-center.mb-4
+      .col-12
+        .row.justify-content-center
+          .col-lg-4.col-12
+            .row.justify-content-center.h-100.w-100
+              .col-lg-auto.col-3.col-sm-2.px-0.mb-4(data-aos="flip-up")
+                .cajon.cajon.C03.p-0.h-100
+                  img.h-100.my-auto(src='@/assets/curso/temas/tema2/img07.svg' alt="Imagen decorativa")
+              .col-lg-9.col-8.px-0.mb-4(data-aos="fade-down")
+                .cajon.cajon.C01.p-4.h-100
+                  p.mb-0 <b>Datos del paciente</b>: nombre completo, tipo y número de identificación.
+
+          .col-lg-4.col-12
+            .row.justify-content-center.h-100.w-100
+              .col-lg-auto.col-3.col-sm-2.px-0.mb-4(data-aos="flip-up")
+                .cajon.cajon.C03.p-0.h-100
+                  img.h-100.my-auto(src='@/assets/curso/temas/tema2/img08.svg' alt="Imagen decorativa")
+              .col-lg-9.col-8.px-0.mb-4(data-aos="fade-down")
+                .cajon.cajon.C01.p-4.h-100
+                  p.mb-0 <b>Diagnóstico o motivo de la prescripción.</b>
+                  
+
+          .col-lg-4.col-12
+            .row.justify-content-center.h-100.w-100
+              .col-lg-auto.col-3.col-sm-2.px-0.mb-4(data-aos="flip-up")
+                .cajon.cajon.C03.p-0.h-100
+                  img.h-100.my-auto(src='@/assets/curso/temas/tema2/img09.svg' alt="Imagen decorativa")
+              .col-lg-9.col-8.px-0.mb-4(data-aos="fade-down")
+                .cajon.cajon.C01.p-4.h-100
+                  p.mb-0 <b>Medicamento</b>: nombre genérico, concentración, forma farmacéutica y cantidad.
+
+          .col-lg-4.col-12
+            .row.justify-content-center.h-100.w-100
+              .col-lg-auto.col-3.col-sm-2.px-0.mb-4(data-aos="flip-up")
+                .cajon.cajon.C03.p-0.h-100
+                  img.h-100.my-auto(src='@/assets/curso/temas/tema2/img08.svg' alt="Imagen decorativa")
+              .col-lg-9.col-8.px-0.mb-4(data-aos="fade-down")
+                .cajon.cajon.C01.p-4.h-100
+                  p.mb-0 <b>Posología</b>: dosis, frecuencia, vía de administración y duración del tratamiento.
+
+          .col-lg-4.col-12
+            .row.justify-content-center.h-100.w-100
+              .col-lg-auto.col-3.col-sm-2.px-0.mb-4(data-aos="flip-up")
+                .cajon.cajon.C03.p-0.h-100
+                  img.h-100.my-auto(src='@/assets/curso/temas/tema2/img09.svg' alt="Imagen decorativa")
+              .col-lg-9.col-8.px-0.mb-4(data-aos="fade-down")
+                .cajon.cajon.C01.p-4.h-100
+                  p.mb-0 <b>Datos del profesional prescriptor</b>: nombre completo, especialidad, número de tarjeta profesional, firma y sello.
+
+          .col-lg-4.col-12
+            .row.justify-content-center.h-100.w-100
+              .col-lg-auto.col-3.col-sm-2.px-0.mb-4(data-aos="flip-up")
+                .cajon.cajon.C03.p-0.h-100
+                  img.h-100.my-auto(src='@/assets/curso/temas/tema2/img10.svg' alt="Imagen decorativa")
+              .col-lg-9.col-8.px-0.mb-4(data-aos="fade-down")
+                .cajon.cajon.C01.p-4.h-100
+                  p.mb-0 <b>Fecha de prescripción.</b>
+
+    p.mb-4(data-aos="fade-down") A continuación, se presenta un caso demostrativo de cómo debe ser registrada una prescripción de medicamento controlado en el recetario oficial, cumpliendo con todos los requisitos normativos y clínicos establecidos.
+
+    .row.justify-content-center.p-4(style="display: flex; width: 100%; margin: auto;")(data-aos="flip-up")
+      .col-lg-11.col-12
+        .row.justify-content-center.mb-5(style="display: flex; width: 100%; margin: auto;")
+          .col-lg-8.col-12.order-lg-2.order-2
+            .cajon.cajon.C01.p-4
+              p Un médico especialista en manejo del dolor prescribe a un paciente con cáncer terminal:
+              ul.lista-ul--color
+                li
+                  i.fas.fa-chevron-right
+                  | Medicamento: morfina 10 mg/ml, solución oral.
+                li
+                  i.fas.fa-chevron-right
+                  | Dosis: 5 ml cada 4 horas.
+                li
+                  i.fas.fa-chevron-right
+                  | Duración: 7 días.
+                li
+                  i.fas.fa-chevron-right
+                  | Cantidad total: 210 ml.
+                li.mb-0 
+                  i.fas.fa-chevron-right
+                  | Justificación: manejo del dolor crónico oncológico.
+          .col-lg-4.col-md-7.col-12.mb-3.order-lg-1.order-1.mb-lg-0
+            .row.justify-content-center(data-aos="flip-up")
+              .col
+                figure
+                  img(src='@/assets/curso/temas/tema2/img13.svg', alt='Imagen decorativa')
+      
+        p.mb-5(data-aos="fade-down") Este registro debe hacerse en el recetario oficial y quedar consignado en la historia clínica del paciente. Además, el servicio farmacéutico debe llevar un estricto control de entrada y salida de estos medicamentos, conservando copia de la fórmula para inspección sanitaria.
+
+        .row.justify-content-center
+          .cajon.cajon.C02.color-secundario.p-4
+            p.mb-0(data-aos="fade-down") En los casos en que los medicamentos no estén incluidos en el Plan de Beneficios en Salud (PBS), su prescripción deberá hacerse a través del aplicativo <b>MIPRES</b>. Esto permite garantizar la trazabilidad y evitar el uso inapropiado de estas sustancias.
+
+    p.mb-0(data-aos="fade-down") La correcta prescripción y dispensación de medicamentos controlados es un proceso crítico que exige conocimiento normativo, responsabilidad profesional y coordinación con el servicio farmacéutico institucional.
 
     separador
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.4 Técnicas de verificación de autenticidad y consistencia
+
+    p(data-aos="fade-down") La verificación de autenticidad y consistencia en la prescripción médica es un paso fundamental para garantizar la seguridad del paciente y el cumplimiento normativo en el servicio farmacéutico. Esta verificación permite confirmar que la fórmula es válida, está correctamente diligenciada y que no contiene errores que puedan comprometer el tratamiento.
+    p(data-aos="fade-down") A continuación, se describen algunas técnicas clave utilizadas en este proceso:
+
+    .row.justify-content-center.p-4.p-md-5(data-aos="flip-up")
+      .col-lg-11.col-12
+        .cronologia.mb-5
+          .contenedor
+            .tarjeta-evento.tarjeta-evento--paso1(data-aos="fade-left")
+              .tarjeta-titulo
+                .cajon-numero
+                  span 01
+                h4 Revisión de la firma y sello del profesional prescriptor
+              .tarjeta-cuerpo.p-4
+                p Se verifica que la prescripción esté firmada y sellada por un profesional autorizado, y que la firma sea legible y coincida con los registros disponibles.
+            .tarjeta-evento.tarjeta-evento--paso2(data-aos="fade-right")
+              .tarjeta-titulo
+                .cajon-numero
+                  span 02
+                h4 Validación de los datos del paciente
+              .tarjeta-cuerpo
+                p.mb-0 Se comprueba que el nombre completo, número de identificación, edad y otros datos estén correctamente escritos y correspondan al usuario que recibe el medicamento.
+            .tarjeta-evento.tarjeta-evento--paso3(data-aos="fade-left")
+              .tarjeta-titulo
+                .cajon-numero
+                  span 03
+                h4 Confirmación de la vigencia de la prescripción
+              .tarjeta-cuerpo
+                p.mb-0 Se revisa la fecha de emisión para asegurar que la fórmula esté dentro del plazo válido para su uso, especialmente en medicamentos controlados o tratamientos agudos.
+            .tarjeta-evento.tarjeta-evento--paso4(data-aos="fade-right")
+              .tarjeta-titulo
+                .cajon-numero
+                  span 04
+                h4 Evaluación de la legibilidad y claridad de la prescripción
+              .tarjeta-cuerpo
+                p.mb-0 Una fórmula ilegible puede generar errores. Es fundamental que las indicaciones sean comprensibles, sin ambigüedades en las dosis, vías de administración o frecuencia.
+            .tarjeta-evento.tarjeta-evento--paso2(data-aos="fade-left")
+              .tarjeta-titulo
+                .cajon-numero
+                  span 05
+                h4 Consistencia en la información farmacológica
+              .tarjeta-cuerpo
+                p.mb-0 Se analiza que el medicamento, dosis, frecuencia y duración sean apropiados para la condición del paciente, y se comparan con guías clínicas y protocolos institucionales.
+            .tarjeta-evento.tarjeta-evento--paso3(data-aos="fade-right")
+              .tarjeta-titulo
+                .cajon-numero
+                  span 06
+                h4 Revisión de posibles interacciones o contraindicaciones
+              .tarjeta-cuerpo
+                p.mb-0 En caso de múltiples medicamentos, se verifica que no existan interacciones adversas y que el paciente no tenga condiciones médicas que contraindiquen el uso del fármaco.
+        
+        p.mb-0(data-aos="fade-down")  Estas técnicas fortalecen la calidad de la atención farmacéutica y ayudan a prevenir errores que puedan poner en riesgo la salud del usuario.
 
 
 </template>

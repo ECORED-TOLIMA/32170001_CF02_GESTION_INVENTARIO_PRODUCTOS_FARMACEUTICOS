@@ -27,3 +27,299 @@
   align-items: center
   justify-content: center
   position: relative
+
+
+// modulo tabs
+.tabs-c__content-item
+  background-color: #DEFFF4
+.tabs-c__tab
+  background-color: #FFE4E4
+.tabs-c__tab--active
+  background-color: #DEFFF4
+.tabs-b__tab--active:hover
+  background-color: #FFE4E4
+.tabs-b__content-item
+  background-color: #DEFFF4
+.tabs-b__tab
+  background-color: #FFE4E4
+.tabs-b__tab--active
+  background-color: #DEFFF4
+.tabs-c__header
+  margin-bottom: 0 !important
+.tabs-c.color-acento-botones .tabs-c__tab--active
+  font-weight: 700
+
+//- Modulo cajones
+.cajon.C01
+  background-color: #E1FEFF
+
+.cajon.C02
+  background-color: #DEFFF4
+
+.cajon.C03
+  background-color: #005865
+
+.cajon.BG06
+  background-image: url("../assets/curso/temas/BG06.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+// Modulo tarjetas
+
+.tarjeta--C01
+  background-color: #DEFFF4 
+.tarjeta--C02
+  background-color: #E1FEFF
+.tarjeta--C03
+  background-color: #FDEEE0
+.tarjeta--C04
+  background-color: #BEFED9
+.tarjeta--C05
+  background-color: #FFE4E4
+.tarjeta--C06
+  background-color: #B8FAFD
+  
+
+.tarjeta--BG01
+  background-image: url("../assets/curso/temas/BG01.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+.tarjeta--BG02
+  background-image: url("../assets/curso/temas/BG02.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+.tarjeta--BG03
+  background-image: url("../assets/curso/temas/BG03.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+.tarjeta--BG04
+  background-image: url("../assets/curso/temas/BG04.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+.tarjeta--BG05
+  background-image: url("../assets/curso/temas/BG05.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.tarjeta--tabla
+  background-color: #B8FAFD
+  &:nth-child(even)
+    background-color: #DEFFF4 
+
+//Modulo lineas de tiempo
+.linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right
+  background-color: #FF9292
+  border: none
+
+.linea-tiempo-d.color-acento-botones.especial
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content
+      background-color: #DEFFF4 !important 
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #FFE4E4
+.tarjeta.tarjeta--gris
+  background-color: #FFE4E4
+
+//- Modulo Slyders 
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  background-color: #FF9292
+  color: #FFFF
+  border: none
+  opacity: 100
+
+.slyder-f
+  .fa-chevron-left, .fa-chevron-right
+  color: #FF9292
+
+.slyder-a__bullets__item
+  background-color: #2BC897
+  border: none
+.slyder-a__bullets__item--active
+  background-color: #FF9292
+  border: none
+
+.slyder-f
+  .fa-chevron-left, .fa-chevron-right
+  color: #FF9292
+
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      background-color: #FFE4E4
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      h5.t2
+        color: $black
+        display: block
+        background-image: url('../assets/curso/temas/ico-down.svg')
+        background-size: 7% 100%
+        background-repeat: no-repeat
+        padding-left: 2.0rem
+      h5.t1
+        display: none
+        
+      @media (max-width:767px)  
+        p
+          font-size: 0.85em
+        h5.t2
+          background-size: 5.5% 100%
+
+.crd_hover_txt--body
+  position: absolute
+  padding: 1.5rem
+  bottom: 0    
+  transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+  transform: translateY(calc( 100% - 3.85rem ))
+  background-color: #FFE4E4
+  h5.t2
+      display: none
+  h5.t1
+    display: block
+    color: $black
+    cursor: pointer
+    background-image: url('../assets/curso/temas/ico-up.svg')
+    background-size: 7% 100%
+    background-repeat: no-repeat
+    padding-left: 2.0rem
+
+@media (min-width:1200px) and (max-width:1400px)  
+  .crd_hover_txt--body
+    p
+      font-size: 0.85em
+
+.crd_hover_txt .crd_hover_txt--body
+  padding: 1.5rem 0.8rem !important
+  width: 100%
+
+//- Modulo tarjetas hover - horizontal
+
+.img90
+  width: 90px 
+.img50
+  width: 50px
+.img100
+  width: 100px
+.img150
+  width: 150px
+.img180
+  width: 180px
+.img200
+  width: 200px
+.img250
+  width: 250px
+.img260
+  width: 260px
+.img280
+  width: 280px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #7F4FC7
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #DEFFF4
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first, .crd--last
+  &::before 
+    background-color: #E1FEFF !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+
+//- Modulo acordions
+.acordion
+  .acordion__activo
+    background-color: #DEFFF4
+  .acordion__accion__btn--b
+    background-color: #FF9292  
+  .acordion__accion__btn--a
+    background-color: #FF9292
+
+//- Modulo listas 
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li
+  display: flex
+
+//- pasosb color fondo btn left and right
+.pasos-b__header__btn--left, .pasos-b__header__btn--right, 
+  background-color: #FF9292
+  border: none
+.pasos-b__header__item--before .pasos-b__header__item__dot 
+  background-color: #BEFED9
+  border: #BEFED9
+.pasos-b__header__item--before .pasos-b__header__item__dot i
+  color: #12263F
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after 
+  background-color: #9D9D9D 
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before
+  background-color: #9D9D9D
+
+//- modulo titulos adicionales
+.titulo01
+  position: relative
+  left: -2%
+  background-color: #DEFFF4
+  border-radius: 20px
+  h3
+    color: black
+  @media screen and ( max-width: $bp-max-lg )
+    left: -3%
+  @media screen and ( max-width: $bp-max-sm )
+    left: -4%
+
+// Modulo versión escritorio/movil
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
