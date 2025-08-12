@@ -120,31 +120,31 @@
             .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
               h4 Validez legal de la prescripción
               p.mb-0 Se comprueba que esté firmada por un profesional de la salud legalmente autorizado (médico, odontólogo, etc.) y que tenga los datos mínimos exigidos por la normativa colombiana.
-            .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+            .col-lg-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
               img(src='@/assets/curso/temas/tema4/img12.jpg', alt="Imagen decorativa")
           .row.justify-content-center
-            .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
+            .col-lg-6.col-8.mb-lg-0.mb-4(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema4/img13.jpg', alt="Imagen decorativa")
-            .col-lg-8(data-aos="fade-left")
+            .col-lg-6(data-aos="fade-left")
               h4 Identificación completa del paciente
               p.mb-0 Nombre completo, tipo y número de documento, edad, y otros datos pertinentes para asegurar la correcta individualización del tratamiento.
           .row.justify-content-center
             .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
               h4 Datos completos de la prescripción
               p.mb-0 Incluye nombre genérico del medicamento, forma farmacéutica, concentración, dosis, frecuencia, vía de administración, duración del tratamiento y diagnóstico clínico, si aplica.
-            .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+            .col-lg-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
               img(src='@/assets/curso/temas/tema4/img14.jpg', alt="Imagen decorativa")
           .row.justify-content-center
-            .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
+            .col-lg-6.col-8.mb-lg-0.mb-4(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema4/img15.jpg', alt="Imagen decorativa")
-            .col-lg-8(data-aos="fade-left")
+            .col-lg-6(data-aos="fade-left")
               h4 Legibilidad y claridad 
               p.mb-0 Se debe revisar que no existan ambigüedades o errores que puedan poner en riesgo la seguridad del paciente. En caso de duda, el personal farmacéutico debe comunicarse con el prescriptor antes de proceder.
           .row.justify-content-center
             .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
               h4 Fecha de prescripción
               p.mb-0 Se valida que esté dentro del período de vigencia según la normatividad (habitualmente 30 días calendario para medicamentos ambulatorios, salvo excepciones).
-            .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+            .col-lg-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
               img(src='@/assets/curso/temas/tema4/img16.jpg', alt="Imagen decorativa")
 
     p.mb-0(data-aos="fade-down") Este proceso permite detectar de forma oportuna posibles inconsistencias o errores, como interacciones medicamentosas, duplicidades, contraindicaciones o uso inadecuado. La evaluación técnica en esta fase garantiza que el tratamiento prescrito sea coherente con el estado clínico del paciente y con los lineamientos establecidos por las políticas de salud pública y el uso racional del medicamento.
@@ -236,14 +236,6 @@
       SlyderA(tipo="b")
         .row.justify-content-center.p-4
           .col-lg-5.order-lg-1.order-2
-            h4 Decreto 780 de 2016 (Decreto Único Reglamentario del Sector Salud)
-            p Compila y unifica toda la reglamentación vigente del sector salud, incluyendo disposiciones sobre servicios farmacéuticos, la dispensación y el aseguramiento de la calidad en la prestación de servicios.
-          .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            figure
-              img(src='@/assets/curso/temas/tema4/img24.jpg', alt='Imagen decorativa')
-
-        .row.justify-content-center.p-4
-          .col-lg-5.order-lg-1.order-2
             h4 Resolución 1441 de 2013
             p Establece los lineamientos para la implementación del Programa de Farmacovigilancia en servicios de salud, con impacto directo sobre la entrega segura de medicamentos.
           .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
@@ -260,19 +252,27 @@
 
         .row.justify-content-center.p-4
           .col-lg-5.order-lg-1.order-2
-            h4 Guía Técnica de Buenas Prácticas de Dispensación del INVIMA
-            p Aunque no es de obligatorio cumplimiento como una resolución, esta guía sirve como herramienta de referencia para implementar estándares de calidad en el proceso de dispensación.
-          .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            figure
-              img(src='@/assets/curso/temas/tema4/img27.jpg', alt='Imagen decorativa')
-
-        .row.justify-content-center.p-4
-          .col-lg-5.order-lg-1.order-2
             h4 Norma ISO 9001:2015 (aplicable en instituciones con Sistemas de Gestión de la Calidad)
             p Aunque no es una norma del sistema de salud colombiano, muchas IPS adoptan esta certificación para garantizar calidad en sus procesos, incluyendo los servicios farmacéuticos.
           .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema4/img28.jpg', alt='Imagen decorativa')
+
+        .row.justify-content-center.p-4
+          .col-lg-5.order-lg-1.order-2
+            h4 Decreto 780 de 2016 (Decreto Único Reglamentario del Sector Salud)
+            p Compila y unifica toda la reglamentación vigente del sector salud, incluyendo disposiciones sobre servicios farmacéuticos, la dispensación y el aseguramiento de la calidad en la prestación de servicios.
+          .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+            figure
+              img(src='@/assets/curso/temas/tema4/img24.jpg', alt='Imagen decorativa')
+
+        .row.justify-content-center.p-4
+          .col-lg-5.order-lg-1.order-2
+            h4 Guía Técnica de Buenas Prácticas de Dispensación del INVIMA
+            p Aunque no es de obligatorio cumplimiento como una resolución, esta guía sirve como herramienta de referencia para implementar estándares de calidad en el proceso de dispensación.
+          .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
+            figure
+              img(src='@/assets/curso/temas/tema4/img27.jpg', alt='Imagen decorativa')
 
     .row.justify-content-center
       .col-lg-10.col-12

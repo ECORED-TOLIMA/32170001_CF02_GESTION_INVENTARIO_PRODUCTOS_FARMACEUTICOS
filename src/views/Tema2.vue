@@ -243,43 +243,43 @@
           .contenedor
             .tarjeta-evento.tarjeta-evento--paso1(data-aos="fade-left")
               .tarjeta-titulo
-                .cajon-numero
-                  span 01
+                .cajon-numero(style="background-color: #E1FEFF")
+                  span(style="color: #12263F") 01
                 h4 Revisión de la firma y sello del profesional prescriptor
               .tarjeta-cuerpo.p-4
                 p Se verifica que la prescripción esté firmada y sellada por un profesional autorizado, y que la firma sea legible y coincida con los registros disponibles.
             .tarjeta-evento.tarjeta-evento--paso2(data-aos="fade-right")
               .tarjeta-titulo
-                .cajon-numero
-                  span 02
+                .cajon-numero(style="background-color: #E1FEFF")
+                  span(style="color: #12263F") 02
                 h4 Validación de los datos del paciente
               .tarjeta-cuerpo
                 p.mb-0 Se comprueba que el nombre completo, número de identificación, edad y otros datos estén correctamente escritos y correspondan al usuario que recibe el medicamento.
             .tarjeta-evento.tarjeta-evento--paso3(data-aos="fade-left")
               .tarjeta-titulo
-                .cajon-numero
-                  span 03
+                .cajon-numero(style="background-color: #E1FEFF")
+                  span(style="color: #12263F") 03
                 h4 Confirmación de la vigencia de la prescripción
               .tarjeta-cuerpo
                 p.mb-0 Se revisa la fecha de emisión para asegurar que la fórmula esté dentro del plazo válido para su uso, especialmente en medicamentos controlados o tratamientos agudos.
             .tarjeta-evento.tarjeta-evento--paso4(data-aos="fade-right")
               .tarjeta-titulo
-                .cajon-numero
-                  span 04
+                .cajon-numero(style="background-color: #E1FEFF")
+                  span(style="color: #12263F") 04
                 h4 Evaluación de la legibilidad y claridad de la prescripción
               .tarjeta-cuerpo
                 p.mb-0 Una fórmula ilegible puede generar errores. Es fundamental que las indicaciones sean comprensibles, sin ambigüedades en las dosis, vías de administración o frecuencia.
             .tarjeta-evento.tarjeta-evento--paso2(data-aos="fade-left")
               .tarjeta-titulo
-                .cajon-numero
-                  span 05
+                .cajon-numero(style="background-color: #E1FEFF")
+                  span(style="color: #12263F") 05
                 h4 Consistencia en la información farmacológica
               .tarjeta-cuerpo
                 p.mb-0 Se analiza que el medicamento, dosis, frecuencia y duración sean apropiados para la condición del paciente, y se comparan con guías clínicas y protocolos institucionales.
             .tarjeta-evento.tarjeta-evento--paso3(data-aos="fade-right")
               .tarjeta-titulo
-                .cajon-numero
-                  span 06
+                .cajon-numero(style="background-color: #E1FEFF")
+                  span(style="color: #12263F") 06
                 h4 Revisión de posibles interacciones o contraindicaciones
               .tarjeta-cuerpo
                 p.mb-0 En caso de múltiples medicamentos, se verifica que no existan interacciones adversas y que el paciente no tenga condiciones médicas que contraindiquen el uso del fármaco.

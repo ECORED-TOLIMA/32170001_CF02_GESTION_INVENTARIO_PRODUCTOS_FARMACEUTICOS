@@ -323,7 +323,7 @@
         .tarjeta.tarjeta--BG04.p-4
           .row.justify-content-center.mb-3
             .col-lg-6.col-sm-4.col-6
-              img(src='@/assets/curso/temas/tema3/img15.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema3/img21.svg' alt='AvatarTop')
           h4.text-center Capacitación continua
           p Mantenerse actualizado en normativas, nuevos medicamentos, tecnologías y estándares de calidad para asegurar un servicio seguro y eficiente.  
     
@@ -338,13 +338,13 @@
     p(data-aos="fade-down") Los indicadores de seguimiento y mejora permiten evaluar de forma sistemática la calidad del servicio de dispensación de medicamentos, identificar desviaciones en los procesos y promover acciones correctivas y preventivas. Estos indicadores son fundamentales para la gestión de la calidad, la toma de decisiones y la mejora continua en el servicio farmacéutico.
     p.mb-5(data-aos="fade-down") Algunos de los indicadores más utilizados en el contexto de dispensación son:
 
-    .tarjeta.tarjeta--BG05.p-md-5.p-4.mb-5(data-aos="flip-up")
+    .tarjeta.tarjeta--BG07.p-md-5.p-4.mb-5(data-aos="flip-up")
       .tarjeta.tarjeta--blanca.p-4.p-md-5
         PasosB.color-acento-botones 
           .row.justify-content-center.p-4(titulo="")
             .col-lg-5.order-lg-1.order-2
               h4 Índice de errores en la dispensación
-              p Mide la cantidad de errores detectados en relación con el total de fórmulas dispensadas. Por ejemplo, si en un mes se dispensaron 1.000 fórmulas y se registraron 5 errores, el índice sería del 0,5%.
+              p Mide la cantidad de errores detectados en relación con el total de fórmulas dispensadas. Por ejemplo, si en un mes se dispensaron 1.000 fórmulas y se registraron 5 errores, el índice sería del 0,5 %.
             .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema3/img22.jpg', alt='Imagen decorativa')
@@ -368,7 +368,7 @@
           .row.justify-content-center.p-4(titulo="")
             .col-lg-5.order-lg-1.order-2
               h4 Nivel de satisfacción del usuario
-              p Se obtiene a través de encuestas aplicadas al finalizar la atención. Por ejemplo, si el 85% de los usuarios califica como “satisfactoria” su experiencia, se considera un resultado positivo.
+              p Se obtiene a través de encuestas aplicadas al finalizar la atención. Por ejemplo, si el 85 % de los usuarios califica como “satisfactoria” su experiencia, se considera un resultado positivo.
             .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema3/img25.jpg', alt='Imagen decorativa')

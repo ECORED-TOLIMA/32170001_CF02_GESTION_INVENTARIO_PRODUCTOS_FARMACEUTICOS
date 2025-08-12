@@ -33,7 +33,7 @@
         .row.justify-content-center.p-4
           .col-lg-6.col-10.order-lg-1.order-1.mb-lg-0.mb-4
             figure(data-aos="fade-right")
-              img(src='@/assets/curso/temas/tema1/img02.jpg', alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/tema1/img03.jpg', alt='Imagen decorativa')
           .col-lg-6.order-lg-2.order-2
             p Es el usuario final que accede al servicio farmacéutico para obtener un medicamento, asesoría o información. Este cliente puede tener diversas características según su edad, condición de salud, nivel educativo, contexto sociocultural y expectativas frente al servicio. Reconocer estas diferencias permite adoptar una atención personalizada, empática y humanizada, ajustada a las necesidades individuales de cada usuario.
 

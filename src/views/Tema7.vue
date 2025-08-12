@@ -61,8 +61,8 @@
                 td.text-bold(data-aos="fade-down")(style="background-color: #F6F6F6") 
                   span.text-bold(style="margin-left: 4px;") Amarillo
                   div(style="display: inline-block; width: 16px; height: 16px; background-color: yellow; margin-left: 10px; vertical-align: middle;")
-                td(data-aos="fade-down")(style="background-color: #F6F6F6") Zonas señalizadas, ventiladas, con protección personal.
-                td(data-aos="fade-down")(style="background-color: #F6F6F6") Inventario separado y registros detallados.
+                td(data-aos="fade-down")(style="background-color: #F6F6F6") Medicamentos parcialmente consumidos, envases con restos, etc.
+                td(data-aos="fade-down")(style="background-color: #F6F6F6") Entrega en puntos de recolección posconsumo autorizados.
 
     p.mb-5(data-aos="fade-down") Consideraciones especiales:
 
