@@ -16,7 +16,7 @@
     p.mb-5(data-aos="fade-down") Estas situaciones pueden incluir:
 
     .row.cajon.BG06.align-items-center.pt-3.mb-5
-      .col-lg-12.col-12.px-lg-5.px-4
+      .col-lg-12.col-12.py-lg-0.py-4
         .row.justify-content-center.align-items-center
           .col-md-6.col-lg-4.mb-4.mb-md-0.d-lg-flex.d-none(data-aos="fade-right")
             img(src='@/assets/curso/temas/tema6/img02.png', alt='Imagen decorativa')
@@ -124,7 +124,7 @@
 
               .row(numero="5" titulo="Paroxetina 20mg y Atorvastatina 20mg")
                 .col-12.mb-4.mb-md-0
-                  p.mb-0 Aerta No.135-2025 (mayo de 2025). Se advirtió sobre riesgo de confusión por similitud en empaque y rotulado.
+                  p.mb-0 Alerta No.135-2025 (mayo de 2025). Se advirtió sobre riesgo de confusión por similitud en empaque y rotulado.
           .col-lg-5.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
             figure
               img(src='@/assets/curso/temas/tema6/img12.png', alt='Imagen decorativa')

@@ -21,43 +21,43 @@
     p.mb-5(data-aos="fade-down") La dispensación de medicamentos en Colombia está regida por un conjunto de normas que buscan garantizar la calidad del servicio farmacéutico, la seguridad del paciente y el uso adecuado de los medicamentos. Las principales normativas vigentes incluyen:
 
     LineaTiempoE.color-primario.mb-5
-      .row(titulo="1993" subtitulo="")
-        .col-lg-9.mb-4.mb-lg-0.order-lg-2.order-1(data-aos="fade-down")
+      .row.justify-content-center(titulo="1993" subtitulo="")
+        .col-lg-9.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
           h4 Ley 100 de 1993
           p Crea el Sistema General de Seguridad Social en Salud, dentro del cual se estructuran los servicios farmacéuticos como parte integral de la atención en salud.
-        .col-lg-auto.col-6.order-lg-1.order-2(data-aos="fade-up")
+        .col-lg-auto.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
           figure
             img(src='@/assets/curso/temas/tema4/img02.svg', alt='Imagen decorativa')
 
-      .row(titulo="2004" subtitulo="")
-        .col-lg-9.mb-4.mb-lg-0.order-lg-2.order-1(data-aos="fade-down")
+      .row.justify-content-center(titulo="2004" subtitulo="")
+        .col-lg-9.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
           h4 Resolución 886 de 2004
           p Define los requisitos para el funcionamiento de los establecimientos farmacéuticos y regula la figura del director técnico.
-        .col-lg-auto.col-6.order-lg-1.order-2(data-aos="fade-up")
+        .col-lg-auto.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
           figure
             img(src='@/assets/curso/temas/tema4/img03.svg', alt='Imagen decorativa')
 
-      .row(titulo="2007" subtitulo="")
-        .col-lg-9.mb-4.mb-lg-0.order-lg-2.order-1(data-aos="fade-down")
+      .row.justify-content-center(titulo="2007" subtitulo="")
+        .col-lg-9.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
           h4 Resolución 1403 de 2007
           p Establece los requisitos técnicos y científicos para la organización y funcionamiento de los servicios farmacéuticos. Define la dispensación como un proceso integral que incluye la verificación de la prescripción, la entrega del medicamento y la orientación al usuario.
-        .col-lg-auto.col-6.order-lg-1.order-2(data-aos="fade-up")
+        .col-lg-auto.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
           figure
             img(src='@/assets/curso/temas/tema4/img04.svg', alt='Imagen decorativa')
 
-      .row(titulo="2015" subtitulo="")
-        .col-lg-9.mb-4.mb-lg-0.order-lg-2.order-1(data-aos="fade-down")
+      .row.justify-content-center(titulo="2015" subtitulo="")
+        .col-lg-9.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
           h4 Ley 1751 de 2015 
           p Reconoce la salud como un derecho fundamental autónomo, imponiendo obligaciones al Estado para garantizar el acceso a servicios y tecnologías en salud, incluyendo los medicamentos.
-        .col-lg-auto.col-6.order-lg-1.order-2(data-aos="fade-up")
+        .col-lg-auto.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
           figure
             img(src='@/assets/curso/temas/tema4/img05.svg', alt='Imagen decorativa')
 
-      .row(titulo="2019" subtitulo="")
-        .col-lg-9.mb-4.mb-lg-0.order-lg-2.order-1(data-aos="fade-down")
+      .row.justify-content-center(titulo="2019" subtitulo="")
+        .col-lg-9.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
           h4 Resolución 3100 de 2019
           p Regula el sistema de habilitación de los servicios de salud en Colombia. Establece estándares de calidad para los servicios farmacéuticos, incluyendo criterios para la seguridad del paciente, la trazabilidad y la mejora continua del proceso de dispensación.
-        .col-lg-auto.col-6.order-lg-1.order-2(data-aos="fade-up")
+        .col-lg-auto.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
           figure
             img(src='@/assets/curso/temas/tema4/img06.svg', alt='Imagen decorativa')
 
@@ -158,28 +158,28 @@
 
     .row.justify-content-center.mb-0(data-aos="flip-up")
       .col
-        .tarjeta--container.row.mb-5
-          .col-xl.col-md-4.tarjeta.tarjeta--C02.p-5
+        .tarjeta--container.row.mb-5.justify-content-center
+          .col-xl.col-lg-4.col-11.tarjeta.tarjeta--C02.p-5
             .row.justify-content-center.mb-3
-              .col-lg-5.col-6
+              .col-lg-5.col-5
                 figure
                   img(src='@/assets/curso/temas/tema4/img17.svg', alt='Imagen decorativa')
               
             h4.text-center Revisión de interacciones
             p.mb-0 Se analiza si el medicamento prescrito puede interactuar con otros tratamientos que el paciente esté recibiendo, lo cual puede modificar su efecto terapéutico o generar efectos indeseados.
 
-          .col-xl.col-md-4.tarjeta.tarjeta--C03.p-5
+          .col-xl.col-lg-4.col-11.tarjeta.tarjeta--C03.p-5
             .row.justify-content-center.mb-3
-              .col-lg-5.col-6
+              .col-lg-5.col-5
                 figure
                   img(src='@/assets/curso/temas/tema4/img18.svg', alt='Imagen decorativa')
               
             h4.text-center Contraindicaciones y advertencias
             p.mb-0 Se evalúan factores como alergias conocidas, edad, estado fisiológico (embarazo, lactancia), enfermedades crónicas u otras condiciones clínicas que puedan afectar la eficacia o seguridad del tratamiento.
 
-          .col-xl.col-md-4.tarjeta.tarjeta--C04.p-5
+          .col-xl.col-lg-4.col-11.tarjeta.tarjeta--C04.p-5
             .row.justify-content-center.mb-3
-              .col-lg-5.col-6
+              .col-lg-5.col-5
                 figure
                   img(src='@/assets/curso/temas/tema4/img19.svg', alt='Imagen decorativa')
               

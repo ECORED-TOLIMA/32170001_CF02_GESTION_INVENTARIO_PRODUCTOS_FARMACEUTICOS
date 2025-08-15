@@ -57,7 +57,7 @@
                 td(data-aos="fade-down") Pañuelos, empaques contaminados, residuos de barrido, etc.
                 td(data-aos="fade-down") Disposición en residuos ordinarios según normatividad local.
               tr
-                td.text-bold(data-aos="fade-down")(style="background-color: #F6F6F6") Residuos especiales(posconsumo)
+                td.text-bold(data-aos="fade-down")(style="background-color: #F6F6F6") Residuos especiales (posconsumo)
                 td.text-bold(data-aos="fade-down")(style="background-color: #F6F6F6") 
                   span.text-bold(style="margin-left: 4px;") Amarillo
                   div(style="display: inline-block; width: 16px; height: 16px; background-color: yellow; margin-left: 10px; vertical-align: middle;")

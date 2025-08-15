@@ -54,26 +54,26 @@
 
     .row.justify-content-center.mb-0(data-aos="flip-up")
       .col
-        .tarjeta--container.row
-          .col-xl.col-md-4.tarjeta.tarjeta--C02.p-5
+        .tarjeta--container.row.justify-content-center
+          .col-xl.col-lg-4.col-11.tarjeta.tarjeta--C02.p-5
             .row.justify-content-center.mb-3
-              .col-lg-5.col-6
+              .col-lg-5.col-5
                 figure
                   img(src='@/assets/curso/temas/tema5/img04.svg', alt='Imagen decorativa')
               
             p.mb-0 Un lote de tabletas de amoxicilina con fecha de vencimiento en diciembre de 2025 y otro con vencimiento en julio del mismo año debe organizarse de tal manera que se dispense primero el lote con vencimiento en julio de 2025.
 
-          .col-xl.col-md-4.tarjeta.tarjeta--C03.p-5
+          .col-xl.col-lg-4.col-11.tarjeta.tarjeta--C03.p-5
             .row.justify-content-center.mb-3
-              .col-lg-5.col-6
+              .col-lg-5.col-5
                 figure
                   img(src='@/assets/curso/temas/tema5/img05.svg', alt='Imagen decorativa')
               
             p.mb-0 Durante un inventario mensual, se detectan frascos de jarabe pediátrico vencidos en marzo de 2024. Estos deben separarse de inmediato y gestionarse como residuos peligrosos, según la normativa vigente.
 
-          .col-xl.col-md-4.tarjeta.tarjeta--C04.p-5
+          .col-xl.col-lg-4.col-11.tarjeta.tarjeta--C04.p-5
             .row.justify-content-center.mb-3
-              .col-lg-5.col-6
+              .col-lg-5.col-5
                 figure
                   img(src='@/assets/curso/temas/tema5/img06.svg', alt='Imagen decorativa')
               
